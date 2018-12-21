@@ -1,7 +1,7 @@
-anton@anton-N56JRH:~$ ping ok.ru -s4000 -c1
-PING ok.ru (5.61.23.11) 4000(4028) bytes of data.
-4008 bytes from ip11.23.odnoklassniki.ru (5.61.23.11): icmp_seq=1 ttl=57 time=32.3 ms
+root@alexander-ThinkPad-T420s:~# ping lib.ru -c1 -s4000
+PING lib.ru (81.176.66.163) 4000(4028) bytes of data.
+4008 bytes from lib.ru (81.176.66.163): icmp_seq=1 ttl=52 time=23.2 ms
 
---- ok.ru ping statistics ---
+--- lib.ru ping statistics ---
 1 packets transmitted, 1 received, 0% packet loss, time 0ms
-rtt min/avg/max/mdev = 32.346/32.346/32.346/0.000 ms
+rtt min/avg/max/mdev = 23.267/23.267/23.267/0.000 ms
