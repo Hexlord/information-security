@@ -1,0 +1,14 @@
+alex@alex-pc:~$ gpg --verify letter.txt.sig letter.txt
+gpg: Signature made Mon 24 Dec 2018 01:51:55 AM MSK
+gpg:                using RSA key CDD5FA1FF3258FB0128C27E38F7813D61B98071E
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   1  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: depth: 1  valid:   1  signed:   0  trust: 1-, 0q, 0n, 0m, 0f, 0u
+gpg: next trustdb check due at 2019-12-23
+gpg: Good signature from "Alexander Knorre <sasha.knorre@yahoo.com>" [full]
+alex@alex-pc:~$ echo "Actually lets meet at Johnson street at 5 pm this time..." >> letter.txt
+alex@alex-pc:~$ gpg --verify letter.txt.sig letter.txt
+gpg: Signature made Mon 24 Dec 2018 01:51:55 AM MSK
+gpg:                using RSA key CDD5FA1FF3258FB0128C27E38F7813D61B98071E
+gpg: BAD signature from "Alexander Knorre <sasha.knorre@yahoo.com>" [full]

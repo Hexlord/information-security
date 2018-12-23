@@ -1,0 +1,1 @@
+alex@alex-pc:~$ gpg --encrypt --armor -r sasha.knorre@yahoo.com encrypted.txt

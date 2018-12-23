@@ -1,0 +1,31 @@
+alexander@alexander-ThinkPad-T420s:~$ gpg --import abob.asc
+gpg: key C8BC807B61F79F49: public key "Alice Bob <nuttyrunner@gmail.com>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+alexander@alexander-ThinkPad-T420s:~$ gpg --sign-key nuttyrunner@gmail.com
+
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: next trustdb check due at 2019-12-23
+pub  rsa3072/C8BC807B61F79F49
+     created: 2018-12-23  expires: 2019-12-23  usage: SC  
+     trust: unknown       validity: unknown
+sub  rsa3072/040118DD2312FAF1
+     created: 2018-12-23  expires: 2019-12-23  usage: E   
+[ unknown] (1). Alice Bob <nuttyrunner@gmail.com>
+
+
+pub  rsa3072/C8BC807B61F79F49
+     created: 2018-12-23  expires: 2019-12-23  usage: SC  
+     trust: unknown       validity: unknown
+ Primary key fingerprint: 64F9 5956 B0E6 2CD5 5FF6  B088 C8BC 807B 61F7 9F49
+
+     Alice Bob <nuttyrunner@gmail.com>
+
+This key is due to expire on 2019-12-23.
+Are you sure that you want to sign this key with your
+key "Alexander Knorre <sasha.knorre@yahoo.com>" (8F7813D61B98071E)
+
+Really sign? (y/N) y
+

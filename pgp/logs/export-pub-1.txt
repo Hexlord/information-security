@@ -1,0 +1,1 @@
+alexander@alexander-ThinkPad-T420s:~$ gpg --export -a >> aknorre.asc

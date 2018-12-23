@@ -1,0 +1,1 @@
+alexander@alexander-ThinkPad-T420s:~$ gpg --detach-sign letter.txt

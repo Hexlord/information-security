@@ -1,0 +1,5 @@
+alex@alex-pc:~$ gpg encrypted.txt.asc
+gpg: WARNING: no command supplied.  Trying to guess what you mean ...
+gpg: encrypted with 3072-bit RSA key, ID E83EE2E2E38761E3, created 2018-12-23
+      "Alexander Knorre <sasha.knorre@yahoo.com>"
+gpg: decryption failed: No secret key

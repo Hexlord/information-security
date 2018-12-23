@@ -1,0 +1,31 @@
+alex@alex-pc:~$ gpg --import aknorre.asc
+gpg: key 8F7813D61B98071E: public key "Alexander Knorre <sasha.knorre@yahoo.com>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+alex@alex-pc:~$ gpg --sign-key sasha.knorre@yahoo.com
+
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: next trustdb check due at 2019-12-23
+pub  rsa3072/8F7813D61B98071E
+     created: 2018-12-23  expires: 2019-12-23  usage: SC  
+     trust: unknown       validity: unknown
+sub  rsa3072/E83EE2E2E38761E3
+     created: 2018-12-23  expires: 2019-12-23  usage: E   
+[ unknown] (1). Alexander Knorre <sasha.knorre@yahoo.com>
+
+
+pub  rsa3072/8F7813D61B98071E
+     created: 2018-12-23  expires: 2019-12-23  usage: SC  
+     trust: unknown       validity: unknown
+ Primary key fingerprint: CDD5 FA1F F325 8FB0 128C  27E3 8F78 13D6 1B98 071E
+
+     Alexander Knorre <sasha.knorre@yahoo.com>
+
+This key is due to expire on 2019-12-23.
+Are you sure that you want to sign this key with your
+key "Alice Bob <nuttyrunner@gmail.com>" (C8BC807B61F79F49)
+
+Really sign? (y/N) y
+

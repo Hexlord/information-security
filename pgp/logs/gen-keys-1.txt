@@ -1,10 +1,9 @@
-MacBook-Pro-Anton:~ anton.lamtev$ gpg2 --full-gen-key
-gpg (GnuPG) 2.2.11; Copyright (C) 2018 Free Software Foundation, Inc.
+alexander@alexander-ThinkPad-T420s:~$ gpg --full-generate-key
+gpg (GnuPG) 2.2.4; Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
-gpg: directory '/Users/anton.lamtev/.gnupg' created
-gpg: keybox '/Users/anton.lamtev/.gnupg/pubring.kbx' created
+gpg: keybox '/home/alexander/.gnupg/pubring.kbx' created
 Please select what kind of key you want:
    (1) RSA and RSA (default)
    (2) DSA and Elgamal
@@ -12,7 +11,7 @@ Please select what kind of key you want:
    (4) RSA (sign only)
 Your selection? 1
 RSA keys may be between 1024 and 4096 bits long.
-What keysize do you want? (2048) 3072
+What keysize do you want? (3072) 3072
 Requested keysize is 3072 bits
 Please specify how long the key should be valid.
          0 = key does not expire
@@ -21,33 +20,33 @@ Please specify how long the key should be valid.
       <n>m = key expires in n months
       <n>y = key expires in n years
 Key is valid for? (0) 1y
-Key expires at Mon Dec  9 19:15:56 2019 MSK
+Key expires at Tue 24 Dec 2019 01:06:19 AM MSK
 Is this correct? (y/N) y
 
 GnuPG needs to construct a user ID to identify your key.
 
-Real name: NotAnton NotLamtev
-Email address: notanton@notlamtev.com
+Real name: Alexander Knorre
+Email address: sasha.knorre@yahoo.com
 Comment: 
 You selected this USER-ID:
-    "NotAnton NotLamtev <notanton@notlamtev.com>"
+    "Alexander Knorre <sasha.knorre@yahoo.com>"
 
-Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? o
+Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
 We need to generate a lot of random bytes. It is a good idea to perform
 some other action (type on the keyboard, move the mouse, utilize the
 disks) during the prime generation; this gives the random number
 generator a better chance to gain enough entropy.
-vsdasfasdfWe need to generate a lot of random bytes. It is a good idea to perform
+We need to generate a lot of random bytes. It is a good idea to perform
 some other action (type on the keyboard, move the mouse, utilize the
 disks) during the prime generation; this gives the random number
 generator a better chance to gain enough entropy.
-sdgpg: /Users/anton.lamtev/.gnupg/trustdb.gpg: trustdb created
-gpg: key F0DD166F048BF976 marked as ultimately trusted
-gpg: directory '/Users/anton.lamtev/.gnupg/openpgp-revocs.d' created
-gpg: revocation certificate stored as '/Users/anton.lamtev/.gnupg/openpgp-revocs.d/411351036AD34BC6E03B5B20F0DD166F048BF976.rev'
+gpg: /home/alexander/.gnupg/trustdb.gpg: trustdb created
+gpg: key 8F7813D61B98071E marked as ultimately trusted
+gpg: directory '/home/alexander/.gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/home/alexander/.gnupg/openpgp-revocs.d/CDD5FA1FF3258FB0128C27E38F7813D61B98071E.rev'
 public and secret key created and signed.
 
-pub   rsa3072 2018-12-09 [SC] [expires: 2019-12-09]
-      411351036AD34BC6E03B5B20F0DD166F048BF976
-uid                      NotAnton NotLamtev <notanton@notlamtev.com>
-sub   rsa3072 2018-12-09 [E] [expires: 2019-12-09]
+pub   rsa3072 2018-12-23 [SC] [expires: 2019-12-23]
+      CDD5FA1FF3258FB0128C27E38F7813D61B98071E
+uid                      Alexander Knorre <sasha.knorre@yahoo.com>
+sub   rsa3072 2018-12-23 [E] [expires: 2019-12-23]

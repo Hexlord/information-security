@@ -1,0 +1,52 @@
+alex@alex-pc:~$ gpg --full-generate-key
+gpg (GnuPG) 2.2.4; Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Please select what kind of key you want:
+   (1) RSA and RSA (default)
+   (2) DSA and Elgamal
+   (3) DSA (sign only)
+   (4) RSA (sign only)
+Your selection? 1
+RSA keys may be between 1024 and 4096 bits long.
+What keysize do you want? (3072) 3072
+Requested keysize is 3072 bits
+Please specify how long the key should be valid.
+         0 = key does not expire
+      <n>  = key expires in n days
+      <n>w = key expires in n weeks
+      <n>m = key expires in n months
+      <n>y = key expires in n years
+Key is valid for? (0) 1y
+Key expires at Tue 24 Dec 2019 01:25:45 AM MSK
+Is this correct? (y/N) y
+
+GnuPG needs to construct a user ID to identify your key.
+
+Real name: Alice Bob
+Email address: nuttyrunner@gmail.com
+Comment: 
+You selected this USER-ID:
+    "Alice Bob <nuttyrunner@gmail.com>"
+
+Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? o
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+            
+gpg: /home/alex/.gnupg/trustdb.gpg: trustdb created
+gpg: key C8BC807B61F79F49 marked as ultimately trusted
+gpg: directory '/home/alex/.gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/home/alex/.gnupg/openpgp-revocs.d/64F95956B0E62CD55FF6B088C8BC807B61F79F49.rev'
+public and secret key created and signed.
+
+pub   rsa3072 2018-12-23 [SC] [expires: 2019-12-23]
+      64F95956B0E62CD55FF6B088C8BC807B61F79F49
+uid                      Alice Bob <nuttyrunner@gmail.com>
+sub   rsa3072 2018-12-23 [E] [expires: 2019-12-23]
