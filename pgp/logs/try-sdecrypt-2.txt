@@ -1,0 +1,11 @@
+alex@alex-pc:~$ gpg symmetric.txt.gpg
+gpg: WARNING: no command supplied.  Trying to guess what you mean ...
+gpg: AES256 encrypted data
+gpg: encrypted with 1 passphrase
+File 'symmetric.txt' exists. Overwrite? (y/N) n
+Enter new filename: symmetric_decrypt.txt
+
+alex@alex-pc:~$ cat symmetric_decrypt.txt
+Sasha Boss incorporated internal secret:
+The Cake is a lie!
+[TOP SECRET]

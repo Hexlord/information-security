@@ -1,0 +1,8 @@
+alexander@alexander-ThinkPad-T420s:~$ gpg symmetric.txt.gpg
+gpg: WARNING: no command supplied.  Trying to guess what you mean ...
+gpg: AES256 encrypted data
+gpg: encrypted with 1 passphrase
+alexander@alexander-ThinkPad-T420s:~$ cat symmetric.txt
+Sasha Boss incorporated internal secret:
+The Cake is a lie!
+[TOP SECRET]
